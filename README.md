@@ -1,3 +1,3 @@
-# online-courses
+# CS50AI - Introduction to Artificial Intelligence with Python
 
-All homework and assignments, I did in various online platform courses are saved here.
+
