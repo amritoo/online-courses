@@ -1,3 +1,4 @@
-# online-courses
+# CS50 - Introduction To Computer Science
 
-All homework and assignments, I did in various online platform courses are saved here.
+All my assignments in this course on Edx platform is saved here.
+
