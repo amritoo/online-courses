@@ -1,10 +1,13 @@
 # CS50AI: Project 5 - Traffic
 
 This is a description of what I did for the **Traffic** project.
+
 My final output:
+
 ![output](output.png)
 
 And final model:
+
 ![Final model](model.png)
 
 ## What did I try?
