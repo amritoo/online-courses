@@ -1,0 +1,45 @@
+N V
+Holmes sat.
+
+N V+Det+N
+Holmes lit a pipe.
+
+N V+Det+N P+N
+We arrived the day before Thursday.
+
+N V P+Det+Adj+N Conj N V
+Holmes sat in the red armchair and he chuckled.
+
+Det+N V+Det+Adj+N
+My companion smiled an enigmatical smile.
+
+N V P+N
+Holmes chuckled to himself.
+
+N Adv+V+Det+N Conj N V P+Det+N+Adv
+She never said a word until we were at the door here.
+
+N V+Adv Conj V+Det+N 
+Holmes sat down and lit his pipe.
+
+N V+Det+Adj+N P+N Conj V+N P+Det+Adj+N
+I had a country walk on Thursday and came home in a dreadful mess.
+
+N V+Det+Adj+Adj+Adj+N P+Det+N P+Det+N
+I had a little moist red paint in the palm of my hand.
+
+
+S -> NP VP | NP VP PP | NP VP PP PP | NP VP CP | NP VP PP CP
+
+NP -> N | Det N | Det Adj N | Det N Adv | Det Adj Adj Adj N
+VP -> V | V NP | Adv VP | V Adv
+PP -> P NP
+CP -> Conj N VP | Conj N V PP | Conj VP | Conj VP PP
+
+
+S -> NP VP
+
+NP -> N | Det NP | Det Adj N | AP NP | N PP
+VP -> V | V NP | V NP PP
+PP -> P NP
+AP -> Adj | Adj AP
